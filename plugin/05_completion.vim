@@ -1,4 +1,4 @@
-function g:TabCompleteWrapper()
+function! g:TabCompleteWrapper()
 let col = col('.') - 1
 if !col || getline('.')[col - 1] !~ '\k'
 return "\<tab>"
