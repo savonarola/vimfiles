@@ -40,3 +40,4 @@ set sessionoptions=curdir,buffers,tabpages
 
 set viminfo='10,\"100,:20,%,n~/.viminfo
 
+let mapleader=","
