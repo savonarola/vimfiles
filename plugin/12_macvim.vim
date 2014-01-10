@@ -2,4 +2,4 @@ if has("gui_macvim")
     set guifont=Monaco:h14
 endif
 
-set clipboard=unnamedplus
+set clipboard=unnamed
