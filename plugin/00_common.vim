@@ -44,3 +44,5 @@ let mapleader=","
 
 set nobackup
 set noswapfile
+
+map Q <Nop>
