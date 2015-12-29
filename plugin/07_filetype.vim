@@ -6,6 +6,7 @@ au FileType scss set noexpandtab
 au FileType haml set expandtab
 au FileType perl set expandtab
 au FileType ruby set expandtab
+au FileType ruby set expandtab
 
 au BufRead,BufNewFile *.phps set filetype=php
 au BufRead,BufNewFile *.thtml set filetype=php
@@ -20,4 +21,5 @@ au BufRead,BufNewFile *.hs set filetype=haskell
 au BufRead,BufNewFile *.coffee set filetype=coffee
 au BufNewFile,BufRead *.scss set filetype=scss
 au BufNewFile,BufRead *.config set filetype=erlang
+au BufRead,BufNewFile config/nginx/*.conf set filetype=nginx
 
