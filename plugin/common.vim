@@ -46,3 +46,7 @@ set nobackup
 set noswapfile
 
 map Q <Nop>
+
+colorscheme railscasts
+
+set encoding=utf8
