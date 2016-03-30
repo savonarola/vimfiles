@@ -34,6 +34,11 @@ au FileType perl set iskeyword=@,48-57,_,192-255,:
 
 au FileType scss set noexpandtab
 
+au FileType yaml set shiftwidth=2
+au FileType yaml set softtabstop=2
+au FileType yaml set tabstop=2
+au FileType yaml set indentexpr=
+
 au BufRead,BufNewFile *.phps set filetype=php
 au BufRead,BufNewFile *.thtml set filetype=php
 au BufRead,BufNewFile *.pl set filetype=perl
@@ -48,4 +53,6 @@ au BufRead,BufNewFile *.coffee set filetype=coffee
 au BufRead,BufNewFile *.scss set filetype=scss
 au BufRead,BufNewFile *.config set filetype=erlang
 au BufRead,BufNewFile config/nginx/*.conf set filetype=nginx
+au BufRead,BufNewFile *.yaml set filetype=yaml
+au BufRead,BufNewFile *.yml set filetype=yamL
 
