@@ -78,4 +78,15 @@ au FileType coffee set noexpandtab
 " Nginx
 
 au BufRead,BufNewFile config/nginx/*.conf set filetype=nginx
+au BufRead,BufNewFile *.yaml set filetype=yaml
+au BufRead,BufNewFile *.yml set filetype=yamL
+
+" YAML
+
+au FileType yaml set shiftwidth=2
+au FileType yaml set softtabstop=2
+au FileType yaml set tabstop=2
+au FileType yaml set indentexpr=
+
+
 
