@@ -50,3 +50,6 @@ map Q <Nop>
 colorscheme railscasts
 
 set encoding=utf8
+
+vmap > >gv
+vmap < <gv
