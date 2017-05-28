@@ -49,7 +49,9 @@ map Q <Nop>
 
 colorscheme railscasts
 
-set encoding=utf8
+if !has('nvim')
+    set encoding=utf8
+endif
 
 vmap > >gv
 vmap < <gv
