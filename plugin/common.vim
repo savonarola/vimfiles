@@ -38,7 +38,9 @@ set fo+=cr
 
 set sessionoptions=curdir,buffers,tabpages
 
-set viminfo='10,\"100,:20,%,n~/.viminfo
+if !has('nvim')
+    set viminfo='10,\"100,:20,%,n~/.viminfo
+endif
 
 let mapleader=","
 
