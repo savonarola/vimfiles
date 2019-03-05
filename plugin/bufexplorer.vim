@@ -2,7 +2,8 @@ nmap <F5> <Esc>:BufExplorer<cr>
 vmap <F5> <esc>:BufExplorer<cr>
 imap <F5> <esc><esc>:BufExplorer<cr>
 
-nmap <leader>b :BufExplorer<CR>
+nmap ,b :BufExplorer<CR>
+vmap ,b <esc>:BufExplorer<CR>
 
 map <F10> :bd<cr>
 vmap <F10> <esc>:bd<cr>
