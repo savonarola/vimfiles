@@ -20,11 +20,10 @@ au BufRead,BufNewFile *.haml set filetype=haml
 
 " Erlang
 
+au BufRead,BufNewFile *.appup.src set filetype=erlang
 au BufRead,BufNewFile *.app.src set filetype=erlang
 au BufRead,BufNewFile *.config set filetype=erlang
 au BufRead,BufNewFile *.hrl set filetype=erlang
-
-au FileType erlang set indentexpr=
 
 " Haskell
 
