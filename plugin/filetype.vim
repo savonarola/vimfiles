@@ -8,6 +8,13 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
+" Lua
+au BufRead,BufNewFile *.ru set filetype=lua
+au FileType lua set shiftwidth=2
+au FileType lua set softtabstop=2
+au FileType lua set tabstop=2
+
+
 " Ruby
 
 au BufRead,BufNewFile *.ru set filetype=ruby
