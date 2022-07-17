@@ -49,8 +49,6 @@ set noswapfile
 
 map Q <Nop>
 
-colorscheme railscasts
-
 if !has('nvim')
     set encoding=utf8
 endif
